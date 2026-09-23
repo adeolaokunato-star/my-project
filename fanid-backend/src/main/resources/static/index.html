@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Caitlin Clark Fan ID</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="brand">
+        <div class="brand-logo">CC</div>
+
+        <div>
+            <strong>CAITLIN CLARK</strong>
+            <span>FAN ID</span>
+        </div>
+    </div>
+
+    <nav>
+        <a href="#home" class="active">Home</a>
+        <a href="#register">Register</a>
+        <a href="#about">About</a>
+        <a href="#community">Community</a>
+    </nav>
+
+    <div class="signature">
+        Caitlin Clark
+        <span>22</span>
+    </div>
+
+</header>
+
+
+<main>
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <div class="eyebrow">
+            BASKETBALL FAN COMMUNITY
+        </div>
+
+        <h1>
+            Caitlin Clark
+            <br>
+            <span>Fan ID Registration</span>
+        </h1>
+
+        <p>
+            Welcome, Basketball Fans! 💛🏀
+        </p>
+
+        <p class="hero-text">
+            Join the fan community and create your own
+            unofficial Fan ID. Tell us about yourself,
+            your favorite moments and what Caitlin's
+            game means to you.
+        </p>
+
+        <a href="#register" class="gold-button">
+            CREATE FAN ID →
+        </a>
+
+    </div>
+
+    <div class="hero-number">
+        22
+    </div>
+
+</section>
+
+
+<section class="registration-layout" id="register">
+
+    <form id="fanForm">
+
+        <!-- ABOUT YOU -->
+
+        <div class="form-card">
+
+            <div class="section-heading">
+                <div class="number">01</div>
+
+                <div>
+                    <h2>ABOUT YOU</h2>
+                    <p>Tell us about yourself</p>
+                </div>
+
+                <div class="section-icon">♙</div>
+            </div>
+
+            <div class="form-grid">
+
+                <div class="field">
+                    <label>FULL NAME <span>*</span></label>
+                    <input
+                        type="text"
+                        id="fullName"
+                        placeholder="Enter your full name"
+                        required
+                    >
+                </div>
+
+                <div class="field">
+                    <label>EMAIL ADDRESS <span>*</span></label>
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="you@example.com"
+                        required
+                    >
+                </div>
+
+                <div class="field">
+                    <label>COUNTRY <span>*</span></label>
+
+                    <select id="country" required>
+                        <option value="">Select your country</option>
+                        <option>Nigeria</option>
+                        <option>United States</option>
+                        <option>United Kingdom</option>
+                        <option>Canada</option>
+                        <option>Ghana</option>
+                        <option>South Africa</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label>CITY / STATE</label>
+
+                    <input
+                        type="text"
+                        id="city"
+                        placeholder="Enter your city or state"
+                    >
+                </div>
+
+                <div class="field">
+                    <label>SOCIAL MEDIA HANDLE</label>
+
+                    <input
+                        type="text"
+                        id="social"
+                        placeholder="@yourusername"
+                    >
+                </div>
+
+                <div class="field">
+                    <label>FAVORITE CAITLIN CLARK MOMENT <span>*</span></label>
+
+                    <input
+                        type="text"
+                        id="moment"
+                        placeholder="Tell us about your favorite moment"
+                        required
+                    >
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- FAN JOURNEY -->
+
+        <div class="form-card">
+
+            <div class="section-heading">
+
+                <div class="number">02</div>
+
+                <div>
+                    <h2>YOUR FAN JOURNEY</h2>
+                    <p>Tell us about your journey as a fan</p>
+                </div>
+
+                <div class="section-icon">🏀</div>
+
+            </div>
+
+            <div class="two-column">
+
+                <div>
+
+                    <label class="question">
+                        HOW LONG HAVE YOU BEEN A CAITLIN CLARK FAN?
+                        <span>*</span>
+                    </label>
+
+                    <label class="radio-option">
+                        <input type="radio" name="fanYears" value="Less than 1 year" required>
+                        <span>Less than 1 year</span>
+                    </label>
+
+                    <label class="radio-option">
+                        <input type="radio" name="fanYears" value="1–2 years">
+                        <span>1–2 years</span>
+                    </label>
+
+                    <label class="radio-option">
+                        <input type="radio" name="fanYears" value="3–5 years">
+                        <span>3–5 years</span>
+                    </label>
+
+                    <label class="radio-option">
+                        <input type="radio" name="fanYears" value="5+ years">
+                        <span>5+ years</span>
+                    </label>
+
+                </div>
+
+
+                <div>
+
+                    <label class="question">
+                        WHAT DO YOU LOVE MOST ABOUT CAITLIN'S GAME?
+                        <span>*</span>
+                    </label>
+
+                    <label class="check-option">
+                        <input type="checkbox" name="game" value="Shooting">
+                        <span>Shooting</span>
+                    </label>
+
+                    <label class="check-option">
+                        <input type="checkbox" name="game" value="Passing">
+                        <span>Passing</span>
+                    </label>
+
+                    <label class="check-option">
+                        <input type="checkbox" name="game" value="Court vision">
+                        <span>Court vision</span>
+                    </label>
+
+                    <label class="check-option">
+                        <input type="checkbox" name="game" value="Competitiveness">
+                        <span>Competitiveness</span>
+                    </label>
+
+                    <label class="check-option">
+                        <input type="checkbox" name="game" value="Leadership">
+                        <span>Leadership</span>
+                    </label>
+
+                    <label class="check-option">
+                        <input type="checkbox" name="game" value="Everything">
+                        <span>Everything!</span>
+                    </label>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- MESSAGE -->
+
+        <div class="form-card">
+
+            <div class="section-heading">
+
+                <div class="number">03</div>
+
+                <div>
+                    <h2>YOUR MESSAGE</h2>
+                    <p>Share what Caitlin Clark means to you</p>
+                </div>
+
+                <div class="section-icon">💬</div>
+
+            </div>
+
+            <div class="form-grid">
+
+                <div class="field">
+
+                    <label>
+                        WRITE A SHORT MESSAGE FOR CAITLIN
+                        <span>*</span>
+                    </label>
+
+                    <textarea
+                        id="message"
+                        maxlength="500"
+                        placeholder="Your message here..."
+                        required
+                    ></textarea>
+
+                    <small>0 / 500</small>
+
+                </div>
+
+
+                <div class="field">
+
+                    <label>
+                        WHAT IS SOMETHING YOU REALLY WANT FROM CAITLIN?
+                        <span>*</span>
+                    </label>
+
+                    <textarea
+                        id="want"
+                        maxlength="500"
+                        placeholder="Your wish here..."
+                        required
+                    ></textarea>
+
+                    <small>0 / 500</small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- FAN ID -->
+
+        <div class="form-card">
+
+            <div class="section-heading">
+
+                <div class="number">04</div>
+
+                <div>
+                    <h2>FAN ID</h2>
+                    <p>Create your fan identity</p>
+                </div>
+
+                <div class="section-icon">☆</div>
+
+            </div>
+
+            <div class="fan-id-row">
+
+                <div class="field">
+
+                    <label>
+                        PREFERRED FAN NAME / NICKNAME
+                        <span>*</span>
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nickname"
+                        placeholder="Enter your fan name"
+                        required
+                    >
+
+                </div>
+
+                <label class="confirm-box">
+
+                    <input type="checkbox" id="confirm" required>
+
+                    <span>
+                        I confirm that the information I provided is
+                        accurate and that I would like to register
+                        for a fan ID.
+                    </span>
+
+                </label>
+
+            </div>
+
+        </div>
+
+
+        <!-- READY -->
+
+        <div class="ready-box">
+
+            <div class="heart">♥</div>
+
+            <div class="ready-text">
+
+                <h3>READY TO JOIN?</h3>
+
+                <p>
+                    Before you submit, tell us what Caitlin Clark's
+                    journey, talent, or determination means to you.
+                </p>
+
+                <textarea
+                    id="journey"
+                    placeholder="Write your honest message..."
+                    required
+                ></textarea>
+
+            </div>
+
+            <button type="submit" class="payment-button">
+                CONTINUE TO PAYMENT →
+            </button>
+
+        </div>
+
+    </form>
+
+
+    <!-- RIGHT SIDE -->
+
+    <aside>
+
+        <div class="preview-card">
+
+            <div class="preview-title">
+                YOUR FAN ID PREVIEW
+            </div>
+
+            <p>
+                This is what your fan ID will look like.
+            </p>
+
+            <div class="fan-card">
+
+                <div class="fan-card-top">
+
+                    <div class="mini-logo">
+                        CC
+                    </div>
+
+                    <div>
+                        <strong>CAITLIN CLARK</strong>
+                        <span>FAN COMMUNITY</span>
+                    </div>
+
+                    <div class="card-number">
+                        22
+                    </div>
+
+                </div>
+
+
+                <div class="fan-profile">
+
+                    <div class="avatar">
+                        ♙
+                    </div>
+
+                    <div>
+
+                        <span>FAN NAME</span>
+
+                        <strong id="previewName">
+                            Your Nickname
+                        </strong>
+
+                        <span>FAN ID</span>
+
+                        <strong id="previewId">
+                            CC-2026-0000
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <div class="fan-card-bottom">
+
+                    <span>OFFICIAL FAN ID</span>
+
+                    <strong>2026</strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="why-join">
+
+                <h3>WHY JOIN?</h3>
+
+                <div class="benefit">
+                    <span>★</span>
+                    <p>Be part of a community of basketball fans</p>
+                </div>
+
+                <div class="benefit">
+                    <span>♙</span>
+                    <p>Get your unique Fan ID</p>
+                </div>
+
+                <div class="benefit">
+                    <span>♥</span>
+                    <p>Share your favorite moments and stories</p>
+                </div>
+
+                <div class="benefit">
+                    <span>🏀</span>
+                    <p>Stay connected with other fans</p>
+                </div>
+
+            </div>
+
+
+            <div class="quote">
+                "Keep playing. Keep believing."
+            </div>
+
+        </div>
+
+    </aside>
+
+</section>
+
+
+<!-- PAYMENT DEMO -->
+
+<section class="payment-section hidden" id="payment">
+
+    <div class="payment-container">
+
+        <div class="eyebrow">
+            FAN ID REGISTRATION
+        </div>
+
+        <h2>COMPLETE YOUR REGISTRATION</h2>
+
+        <p>
+            Your Fan ID has been prepared. Select a payment
+            method below to continue with the demonstration.
+        </p>
+
+        <div class="payment-options">
+
+            <button class="payment-option" onclick="showPayment('bitcoin')">
+                <span class="payment-icon">₿</span>
+                <span>
+                    <strong>Bitcoin</strong>
+                    <small>Bitcoin payment demo</small>
+                </span>
+            </button>
+
+            <button class="payment-option" onclick="showPayment('card')">
+                <span class="payment-icon">💳</span>
+                <span>
+                    <strong>Card</strong>
+                    <small>Card payment demo</small>
+                </span>
+            </button>
+
+        </div>
+
+
+        <div id="bitcoinPanel" class="payment-panel hidden">
+
+            <div class="bitcoin-symbol">₿</div>
+
+            <h3>BITCOIN PAYMENT</h3>
+
+            <p>
+                This is a demonstration payment screen.
+                No cryptocurrency is transferred.
+            </p>
+
+            <div class="wallet-box">
+                <span>WALLET ADDRESS</span>
+
+                <code>
+                    bc1qexamplefanidpayment000000000000000
+                </code>
+            </div>
+
+            <button class="gold-button" onclick="demoPayment()">
+                CONTINUE
+            </button>
+
+        </div>
+
+
+        <div id="cardPanel" class="payment-panel hidden">
+
+            <div class="bitcoin-symbol">💳</div>
+
+            <h3>CARD PAYMENT</h3>
+
+            <p>
+               
+            </p>
+
+            <button class="gold-button" onclick="demoPayment()">
+                CONTINUE
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="success-section hidden" id="success">
+
+    <div class="success-card">
+
+        <div class="success-icon">✓</div>
+
+        <h2>REGISTRATION COMPLETE</h2>
+
+        <p>
+            
+        </p>
+
+        <div class="final-id">
+            <span>YOUR FAN ID</span>
+            <strong id="finalId">CC-2026-0000</strong>
+        </div>
+
+        <button class="gold-button" onclick="location.reload()">
+            CREATE ANOTHER FAN ID
+        </button>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-brand">
+        <div class="brand-logo">CC</div>
+        <span>CAITLIN CLARK FAN ID</span>
+    </div>
+
+    <p>
+      
+    </p>
+
+    <div class="footer-icons">
+        ◎ &nbsp; X &nbsp; ▶ &nbsp; ♪
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
